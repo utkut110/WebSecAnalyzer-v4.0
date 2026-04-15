@@ -1,0 +1,12 @@
+# WebSecAnalyzer v4.0 – Bağımlılıklar
+# Kurulum: pip install -r requirements.txt
+
+anthropic>=0.34.0
+aiohttp>=3.9.0
+beautifulsoup4>=4.12.0
+pyyaml>=6.0
+rich>=13.7.0
+
+# Opsiyonel
+# reportlab>=4.0.0   # PDF rapor için
+# dnspython>=2.4.0   # Gelişmiş DNS analizi için

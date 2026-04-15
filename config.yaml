@@ -1,0 +1,50 @@
+# ════════════════════════════════════════════════════════════════
+#  WebSecAnalyzer v4.0 – Yapılandırma Dosyası
+# ════════════════════════════════════════════════════════════════
+
+# ─── Anthropic API Anahtarı ──────────────────────────────────────
+# Yöntem 1: Aşağıya girin
+# Yöntem 2: set ANTHROPIC_API_KEY=sk-ant-...
+anthropic_api_key: ""
+
+# ─── Genel ────────────────────────────────────────────────────────
+timeout: 10
+connect_timeout: 5
+max_workers: 30
+follow_redirects: true
+language: "tr"          # tr veya en
+user_agent: "Mozilla/5.0 (WebSecAnalyzer/4.0)"
+
+max_forms_test: 5
+max_dir_concurrency: 50
+retry_count: 2
+retry_delay: 1.0
+
+# ─── Port Listesi ─────────────────────────────────────────────────
+ports:
+  - 21
+  - 22
+  - 23
+  - 25
+  - 53
+  - 80
+  - 443
+  - 1433
+  - 1521
+  - 2375
+  - 2376
+  - 3000
+  - 3306
+  - 3389
+  - 5432
+  - 5900
+  - 6379
+  - 7001
+  - 8000
+  - 8080
+  - 8443
+  - 8888
+  - 9200
+  - 9300
+  - 27017
+  - 50000
